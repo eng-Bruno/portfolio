@@ -15,3 +15,51 @@
     background-color: hsla(0, 2%, 19%, 0.0558);
 }
 
+nav .ul-item {
+    display: flex;
+    flex-direction: column;
+    margin-block: .5rem;
+    list-style: none;
+}
+
+nav .ul-item.oicon a {
+    display: none;
+    
+}
+
+nav .ul-item.oicon li::after {
+    content: "";
+    position: absolute;
+    width: 1%;
+    height: 4%;
+    background-color: #fff;
+    right: 0;
+}
+
+nav .ul-item li {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+    padding-block: 1.2rem;
+    margin-block: .2rem;
+}
+
+nav .ul-item li::hover {
+    background-color: rgb(66, 81, 52);
+}
+
+nav .ul-item li .icon {
+    color: rgb(rgb(0, 250, 33), green, blue);
+    margin-inline: 1rem;
+    font-size: 30px;
+}
+
+nav .ul-item li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border-left: 1px solid white;
+    padding-left: 2rem;
+    
+}

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {IoMdMenu, IoMdClose} from 'react-icons/io'
+import {IoMdMenu, IoMdClose, IoMdDocument} from 'react-icons/io'
 import { FaHome, FaPaste} from 'react-icons/fa'
 import { BsFileText} from 'react-icons/bs'
 import { BiBookBookmark} from 'react-icons/bi'
@@ -27,27 +27,27 @@ const Header = () => {
                 <ul className={active ? 'ul-item' : 'ul-item oicon'}>
 
                     <li>
-                        <FaHome style={{color: 'white'}}/>
+                        <FaHome className="icon" style={{color: 'white'}}/>
                         <Link to='/'>Home</Link>
                     </li>
                     
                     <li>
-                        <BsFileText style={{color: 'white'}}/>
+                        <BsFileText className="icon" style={{color: 'white'}}/>
                         <Link to='/'>Sobre</Link>
                     </li>
 
                     <li>
-                        <BiBookBookmark style={{color: 'white'}}/>
+                        <BiBookBookmark className="icon" style={{color: 'white'}}/>
                         <Link to='/'>Resumo</Link>
                     </li>
 
                     <li>
-                        <FaPaste style={{color: 'white'}}/>
+                        <FaPaste className="icon" style={{color: 'white'}}/>
                         <Link to='/'>Portfolio</Link>
                     </li>
 
                     <li>
-                        <MdOutlineContactSupport style={{color: 'white'}}/>
+                        <MdOutlineContactSupport className="icon" style={{color: 'white'}}/>
                         <Link to='/'>Contato</Link>
                     </li>
 
