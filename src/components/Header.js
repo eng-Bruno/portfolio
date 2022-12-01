@@ -19,9 +19,9 @@ const Header = () => {
     return (
         <div className={active ? 'header' : 'header-mobile'}>
 
-        <div className="menu-icon" onClick={activateNav}>
-            {!active ? <IoMdMenu className="menu"/> : <IoMdClose className="close-icon"/>}
-        </div>
+                <div className="menu-icon" onClick={activateNav}>
+                    {!active ? <IoMdMenu className="menu"/> : <IoMdClose className="menu"/>}
+                </div>
 
             <nav>
                 <ul className={active ? 'ul-item' : 'ul-item oicon'}>
@@ -30,22 +30,26 @@ const Header = () => {
                         <FaHome className="icon" style={{color: 'white'}}/>
                         <Link to='/'>Home</Link>
                     </li>
-                    
+                    <br />
+                    <br />
                     <li>
                         <BsFileText className="icon" style={{color: 'white'}}/>
                         <Link to='/'>Sobre</Link>
                     </li>
-
+                    <br />
+                    <br />
                     <li>
                         <BiBookBookmark className="icon" style={{color: 'white'}}/>
                         <Link to='/'>Resumo</Link>
                     </li>
-
+                    <br />
+                    <br />
                     <li>
                         <FaPaste className="icon" style={{color: 'white'}}/>
                         <Link to='/'>Portfolio</Link>
                     </li>
-
+                    <br />
+                    <br />
                     <li>
                         <MdOutlineContactSupport className="icon" style={{color: 'white'}}/>
                         <Link to='/'>Contato</Link>
