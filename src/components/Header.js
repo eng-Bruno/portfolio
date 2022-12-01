@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {IoMdImage} from 'react-icons/io'
+import {IoMdMenu, IoMdClose} from 'react-icons/io'
 import { FaHome, FaPaste} from 'react-icons/fa'
 import { BsFileText} from 'react-icons/bs'
 import { BiBookBookmark} from 'react-icons/bi'
@@ -9,11 +9,22 @@ import { Link } from 'react-router-dom'
 import "./Header.css"
 
 const Header = () => {
+
+    const [active, setActive] = useState(false)
+
+    const activateNav = () => {
+        setActive(!active)
+    }
+
     return (
-        <div className="header">
+        <div className={active ? 'header' : 'header-mobile'}>
+
+        <div className="menu-icon" onClick={activateNav}>
+            {!active ? <IoMdMenu className="menu"/> : <IoMdClose className="close-icon"/>}
+        </div>
 
             <nav>
-                <ul className="ul-item">
+                <ul className={active ? 'ul-item' : 'ul-item oicon'}>
 
                     <li>
                         <FaHome style={{color: 'white'}}/>
