@@ -31,9 +31,23 @@ const Portfolio = () => {
             <CardHeader>
               Sigaa+
               <div className="text-end">
-                <img alt="" src="" />
-                <img alt="" src="" />
-                <img alt="" src="" />
+                <img
+                  alt="Javascript"
+                  height="30"
+                  width="40"
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+                />
+                <img
+                  alt="Javascript"
+                  height="30"
+                  width="40"
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"
+                />
+                <img
+                  height="30"
+                  width="40"
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
+                />
               </div>
             </CardHeader>
             <CardBody>
