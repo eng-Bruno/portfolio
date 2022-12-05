@@ -5,3 +5,18 @@
   background-size: cover;
   background-position: center;
 }
+
+.ctt-row {
+  display: flex;
+  margin-left: 500px;
+  padding-top: 200px;
+}
+
+.ctt-card {
+  background-color: rgb(26, 0, 51);
+  opacity: 75%;
+}
+
+Label {
+  color: white;
+}

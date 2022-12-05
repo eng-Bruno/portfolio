@@ -10,3 +10,13 @@
   display: flex;
   margin-left: 250px;
 }
+
+.home-card .p {
+  color: white;
+  opacity: 100%;
+}
+
+.home-card {
+  background-color: rgb(36, 0, 36);
+  opacity: 75%;
+}
