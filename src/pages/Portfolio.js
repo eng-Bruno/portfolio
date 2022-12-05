@@ -26,9 +26,12 @@ const Portfolio = () => {
       <br />
       <Row className="row-pt">
         <Col md="3">
-          <Card>
+          <Card
+            className="port-card"
+            style={{ backgroundColor: "rgb(36, 0, 36)", opacity: "75%" }}
+          >
             <img alt="Sample" src="" />
-            <CardHeader>
+            <CardHeader style={{ color: "white", fontSize: "25px" }}>
               Sigaa+
               <div className="text-end">
                 <img
@@ -51,7 +54,7 @@ const Portfolio = () => {
               </div>
             </CardHeader>
             <CardBody>
-              <p>
+              <p style={{ color: "white" }}>
                 Lorem ipsum dolor sit amet consectetur adipiscing, elit diam
                 condimentum torquent sem, risus euismod himenaeos litora
                 phasellus.
@@ -61,9 +64,12 @@ const Portfolio = () => {
           </Card>
         </Col>
         <Col md="3">
-          <Card>
+          <Card
+            className="port-card"
+            style={{ backgroundColor: "rgb(36, 0, 36)", opacity: "75%" }}
+          >
             <img alt="Sample" src="" />
-            <CardHeader>
+            <CardHeader style={{ color: "white", fontSize: "25px" }}>
               Em breve
               <div className="text-end">
                 <img alt="" src="" />
@@ -72,7 +78,7 @@ const Portfolio = () => {
               </div>
             </CardHeader>
             <CardBody>
-              <p>
+              <p style={{ color: "white" }}>
                 Lorem ipsum dolor sit amet consectetur adipiscing, elit diam
                 condimentum torquent sem, risus euismod himenaeos litora
                 phasellus.
@@ -82,9 +88,9 @@ const Portfolio = () => {
           </Card>
         </Col>
         <Col md="3">
-          <Card>
+          <Card style={{ backgroundColor: "rgb(36, 0, 36)", opacity: "75%" }}>
             <img alt="Sample" src="" />
-            <CardHeader>
+            <CardHeader style={{ color: "white", fontSize: "25px" }}>
               Em breve
               <div className="text-end">
                 <img alt="" src="" />
@@ -93,7 +99,7 @@ const Portfolio = () => {
               </div>
             </CardHeader>
             <CardBody>
-              <p>
+              <p style={{ color: "white" }}>
                 Lorem ipsum dolor sit amet consectetur adipiscing, elit diam
                 condimentum torquent sem, risus euismod himenaeos litora
                 phasellus.
@@ -108,10 +114,13 @@ const Portfolio = () => {
       <br />
       <Row className="row-pt">
         <Col md="3">
-          <Card>
+          <Card
+            className="port-card"
+            style={{ backgroundColor: "rgb(36, 0, 36)", opacity: "75%" }}
+          >
             <img alt="Sample" src="" />
-            <CardHeader>
-              Sigaa+
+            <CardHeader style={{ color: "white", fontSize: "25px" }}>
+              Em breve
               <div className="text-end">
                 <img alt="" src="" />
                 <img alt="" src="" />
@@ -119,7 +128,7 @@ const Portfolio = () => {
               </div>
             </CardHeader>
             <CardBody>
-              <p>
+              <p style={{ color: "white" }}>
                 Lorem ipsum dolor sit amet consectetur adipiscing, elit diam
                 condimentum torquent sem, risus euismod himenaeos litora
                 phasellus.
@@ -129,9 +138,9 @@ const Portfolio = () => {
           </Card>
         </Col>
         <Col md="3">
-          <Card>
+          <Card style={{ backgroundColor: "rgb(36, 0, 36)", opacity: "75%" }}>
             <img alt="Sample" src="" />
-            <CardHeader>
+            <CardHeader style={{ color: "white", fontSize: "25px" }}>
               Em breve
               <div className="text-end">
                 <img alt="" src="" />
@@ -140,7 +149,7 @@ const Portfolio = () => {
               </div>
             </CardHeader>
             <CardBody>
-              <p>
+              <p style={{ color: "white" }}>
                 Lorem ipsum dolor sit amet consectetur adipiscing, elit diam
                 condimentum torquent sem, risus euismod himenaeos litora
                 phasellus.
@@ -150,9 +159,9 @@ const Portfolio = () => {
           </Card>
         </Col>
         <Col md="3">
-          <Card>
+          <Card style={{ backgroundColor: "rgb(36, 0, 36)", opacity: "75%" }}>
             <img alt="Sample" src="" />
-            <CardHeader>
+            <CardHeader style={{ color: "white", fontSize: "25px" }}>
               Em breve
               <div className="text-end">
                 <img alt="" src="" />
@@ -161,7 +170,7 @@ const Portfolio = () => {
               </div>
             </CardHeader>
             <CardBody>
-              <p>
+              <p style={{ color: "white" }}>
                 Lorem ipsum dolor sit amet consectetur adipiscing, elit diam
                 condimentum torquent sem, risus euismod himenaeos litora
                 phasellus.
