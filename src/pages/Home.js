@@ -25,7 +25,7 @@ const Home = () => {
       <br />
       <Row>
         <Col md="5">
-          <Card>
+          <Card color="dark" inverse>
             <CardHeader className="border-bottom" style={{ minHeight: "7vh" }}>
               <h6>Pequeno Resumo sobre mim</h6>
             </CardHeader>
@@ -44,7 +44,7 @@ const Home = () => {
           </Card>
         </Col>
         <Col md="5">
-          <Card>
+          <Card color="dark" inverse>
             <CardHeader className="border-bottom" style={{ minHeight: "7vh" }}>
               <h6>Habilidades</h6>
             </CardHeader>
@@ -85,7 +85,7 @@ const Home = () => {
       <br />
       <Row>
         <Col md="5">
-          <Card>
+          <Card color="dark" inverse>
             <CardHeader>
               <h6>Lorem ipsum dolor</h6>
             </CardHeader>
@@ -104,7 +104,7 @@ const Home = () => {
           </Card>
         </Col>
         <Col md="5">
-          <Card>
+          <Card color="dark" inverse>
             <CardHeader>
               <h6>Lorem ipsum dolor</h6>
             </CardHeader>
