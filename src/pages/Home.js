@@ -12,17 +12,17 @@ import {
   Progress,
   Label,
   CardSubtitle,
+  CardTitle,
 } from "reactstrap";
 
 const Home = () => {
   return (
     <div className="home">
       <Header />
-      <Row>
-        <Col>
-          <h5>Bruno Oliveira</h5>
-        </Col>
-      </Row>
+      <div className="text-center">
+        <h1 style={{ color: "white" }}>Bruno Oliveira</h1>
+      </div>
+      <br />
       <Row>
         <Col md="5">
           <Card>
@@ -77,6 +77,48 @@ const Home = () => {
               <Progress animated="true" className="my-2" value="30">
                 30
               </Progress>
+            </CardBody>
+          </Card>
+        </Col>
+      </Row>
+      <br />
+      <br />
+      <Row>
+        <Col md="5">
+          <Card>
+            <CardHeader>
+              <h6>Lorem ipsum dolor</h6>
+            </CardHeader>
+
+            <CardBody className="text-center" style={{ Height: "15vh" }}>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing, elit diam
+                condimentum torquent sem, risus euismod himenaeos litora
+                phasellus. Euismod etiam primis mi dignissim duis class posuere,
+                ultrices iaculis facilisi semper a luctus velit, venenatis
+                bibendum pellentesque vestibulum inceptos consequat. Himenaeos
+                ac aliquam nibh eu tellus tempus potenti mollis nostra, eros
+                lacus parturient maximus varius elit consectetur placerat
+              </p>
+            </CardBody>
+          </Card>
+        </Col>
+        <Col md="5">
+          <Card>
+            <CardHeader>
+              <h6>Lorem ipsum dolor</h6>
+            </CardHeader>
+
+            <CardBody className="text-center" style={{ Height: "15vh" }}>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing, elit diam
+                condimentum torquent sem, risus euismod himenaeos litora
+                phasellus. Euismod etiam primis mi dignissim duis class posuere,
+                ultrices iaculis facilisi semper a luctus velit, venenatis
+                bibendum pellentesque vestibulum inceptos consequat. Himenaeos
+                ac aliquam nibh eu tellus tempus potenti mollis nostra, eros
+                lacus parturient maximus varius elit consectetur placerat
+              </p>
             </CardBody>
           </Card>
         </Col>
